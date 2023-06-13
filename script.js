@@ -6,14 +6,20 @@ function jesus() {
 }
 
 jesus()
+let bordaPai = document.createElement('div')
+let borda = document.createElement("div")
+borda.style.border = '2px solid black'
+borda.style.width = '200px'
+borda.style.height = '400px'
+pai.appendChild(bordaPai)
+bordaPai.appendChild(borda)
 
-let div = document.div
 function foto() {
     let foto = document.createElement('img')
     foto.src = 'gato.jpg'
     foto.style.width = '500px'
     foto.style.height = '400px'
-    div.appendChild(foto)
+    pai.appendChild(foto)
 }
 
 let botao = document.createElement('button')
