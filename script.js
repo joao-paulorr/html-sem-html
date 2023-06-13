@@ -1,4 +1,6 @@
 function CreateElement() {
-    var filho = document.createElement("h1")
-    var pai = 
+    let pai = document.body
+    let filho = document.createElement('h1')
+    pai.appendChild(filho)
+    filho.textContent = "titulo"
 }
