@@ -2,7 +2,6 @@ let pai = document.body
 function jesus() {
     let filho = document.createElement('h1')
     filho.textContent = 'Gato'
-    foto.src = 'pau.png'
     pai.appendChild(filho)
 }
 
@@ -15,7 +14,6 @@ function foto() {
     foto.style.height = '400px'
     pai.appendChild(foto)
 }
-
 
 let botao = document.createElement('button')
 botao.textContent = 'Enviar'
